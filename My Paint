@@ -1,0 +1,20 @@
+JMenuBar:
+    + JMenu:
+        + File : JMenuItem(Exit);
+        + Shape : //(shapes..)
+        + Color : //(colors..)
+JPanel: PButton, PShape, PDraw,.
+    + Layout: Flow.
+PButton: East.
+    + Lay out Grid.
+    + JButton:
+       + red, blue, yellow, orange :
+            + JPanel: Layout Grid(2,2);
+       + clear.
+PShape: North.
+    + Layout Flow center.
+    + JButton:
+        + square, circle, line.
+    + JRadioButton:
+        + fill.
+
