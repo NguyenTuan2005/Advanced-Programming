@@ -21,7 +21,7 @@ public class MainPanel extends JPanel {
         add(new PDraw(), BorderLayout.CENTER);
     }
     
-    public void getcommand(String command) {
+    public void getCommand(String command) {
     	this.command = command;
     }
     //Setting action events.
